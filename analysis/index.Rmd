@@ -8,4 +8,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+HI babe, welcome to my first RMarkdown Workflow site.
+So I made this to test what we did in class and made it for you as per my number one G na.
+It uses R language and what is called RMarkdown, Workflowr and GitHub as well.
+Click [here](Love.html) to see what I prepared for you. 

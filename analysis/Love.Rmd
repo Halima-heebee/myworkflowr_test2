@@ -1,0 +1,34 @@
+---
+title: "For My Love"
+output: html_document
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ggplot2)
+```
+
+## This is to test a package that I am writing for you.
+
+
+You know I am not much of a great writer but my **LOVE** for you always brings out that faboulous writing skills that I am too lazy to explore. See below my reasons for loving you unconditionally:
+
+```{r one, echo = TRUE, eval = FALSE}
+Obviously I have no particular reason, its natural babe. I just want to grow old with you with all the good things in life
+```
+
+# Love Range plot
+
+Here is a graph to show my change in rate of love with age:
+
+```{r plot, echo = FALSE, eval = TRUE}
+RANGE <- read.csv("C:/Users/DELL/Desktop/RANGE.csv")
+ggplot(RANGE, aes(LOVE, AGE)) + geom_point(col="tomato2", size=3)
+```
+
+You can see that it will continue to grow at an exponential rate.
+
+
+
